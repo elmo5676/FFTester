@@ -8,5 +8,6 @@
 
 import Foundation
 
-print("Hello, World!")
+let wxD = WeatherDownloader(icao: "KSFO")
 
+RunLoop.main.run()
